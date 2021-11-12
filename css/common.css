@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+	background: #fff;
+	background-image: url(https://image.rakuten.co.jp/benkyo/cabinet/02640991/04958602/imgrc0078531074.jpg);/*,url(https://image.rakuten.co.jp/benkyo/cabinet/02562713/point_banner/0131870941.gif);*/
+	background-position: left;/*,right;*/
+	background-repeat: repeat-y;*/
+	background-attachment: scroll;
+	-webkit-text-size-adjust: 100%;
+}
+@media only screen and (max-width: 1280px){
+  body{
+    background-image:none;
+  }
+}
+
+
+/*
+    .slick-slide {
+      margin: 0px 15px;
+    }
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }*/
