@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!--2022/11/10　クーポン表示/ 野崎-->
-<!--2022/11/06　クーポン表示/ 金澤-->
+<!--2022/11/11　スクリプト 一部修正・調整/ 金澤-->
+<!--2022/11/11　クーポン非表示/ 金澤-->
 
 
 <head>
@@ -59,7 +59,7 @@
 		}
 
 		div#rc_rightArea .rc_right {
-			background: url("https://image.rakuten.co.jp/benkyo/cabinet/02562713/point_banner/1110_2off_r.jpg") no-repeat scroll 0 0 transparent;
+			background: url("https://image.rakuten.co.jp/benkyo/cabinet/02562713/point_banner/1115_2off_r.jpg") no-repeat scroll 0 0 transparent;
 		}
 
 		div#rc_rightArea2 .rc_right2 {
@@ -212,8 +212,8 @@
 			</div>
 		</div>
 	</header>
-	<!-- ライトバナー -->
-		<div id="rc_rightArea" class="pc"><a href="https://coupon.rakuten.co.jp/getCoupon?getkey=TlFMQy1FNUFPLUpDVkEtR05MWA--&rt=" target="_blank" class="rc_right"></a></div>
+	<!-- ライトバナー 
+		<div id="rc_rightArea" class="pc"><a href="https://coupon.rakuten.co.jp/getCoupon?getkey=SU9HNC1YTVpULUdIVk0tTVJTWA--&rt=" target="_blank" class="rc_right"></a></div>-->
 
 
 	<!-- ライトバナー2
@@ -1377,7 +1377,7 @@
 			} else {
 				$('head').prepend('<meta name="viewport" content="width=1280">');
 			}
-		})
+		});
 	</script>
 	<script>
 		//開くボタンを押した時には
