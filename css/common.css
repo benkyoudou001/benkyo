@@ -2,10 +2,10 @@
 
 body {
 	background: #fff;
-	background-image: url('https://image.rakuten.co.jp/benkyo/cabinet/02640991/04958602/imgrc0078531074.jpg')/*,url('https://image.rakuten.co.jp/benkyo/cabinet/02562713/point_banner/1104_ma_100x600.gif')*/;
+	background-image: url('https://image.rakuten.co.jp/benkyo/cabinet/02640991/04958602/imgrc0078531074.jpg'),url('https://image.rakuten.co.jp/benkyo/cabinet/02562713/point_banner/0919_ma_100x600.gif')/**/;
 	background-position: left,right;
 	background-repeat: repeat-y;
-	background-attachment: scroll;
+	background-attachment: scroll;Ω
 	-webkit-text-size-adjust: 100%;
 }
 @media only screen and (max-width: 1280px){
