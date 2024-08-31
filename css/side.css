@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+.box4c {
+  padding-right: 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 215px;
+  padding: 0 0 30px; }
+
+.shipping img {
+  width: 100%; }
+
+.sidenews1 {
+  margin-bottom: 1.5em; }
+  .sidenews1 li a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none; }
+    .sidenews1 li a:hover {
+      color: orange; }
+
+.sidemenu1 h1 {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: #18cfcd;
+  margin: 10px 0 0;
+  line-height: 30px; }
+.sidemenu1 ul {
+  margin: 0;
+  padding: 5px;
+  display: block;
+  list-style-type: disc;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+  padding-left: 0; }
+  .sidemenu1 ul li {
+    list-style: none; }
+    .sidemenu1 ul li a {
+      display: block;
+      color: #333;
+      font-size: 16px;
+      text-decoration: none; }
+  .sidemenu1 ul form {
+    display: block;
+    margin-top: 0; }
+    .sidemenu1 ul form text {
+      font-size: 16px;
+      text-indent: 10px;
+      border-radius: 5px;
+      padding: 2px 0 0;
+      color: #666;
+      border: 1px solid #ccc;
+      height: 26px;
+      width: 100%; }
+
+.sidetc1 {
+  margin: 0 0 15px; }
+  .sidetc1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .sidetc1 ul a {
+      font-size: 10px;
+      color: #000;
+      display: block;
+      margin: 0 0 10px;
+      padding: 0;
+      text-decoration: none; }
+  .sidetc1 img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom; }
+
+.sidemenu2 {
+  background-color: #fff;
+  margin: 0 0 10px; }
+  .sidemenu2 h1 {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #18cfcd;
+    margin: 10px 0 0;
+    line-height: 30px; }
+  .sidemenu2 ul {
+    margin: 0;
+    padding: 5px;
+    list-style: none; }
+    .sidemenu2 ul li {
+      text-align: left;
+      line-height: 18px;
+      text-indent: 0;
+      margin: 5px 0 0;
+      font-size: 16px; }
+      .sidemenu2 ul li a {
+        display: block;
+        padding: 5px;
+        color: #333;
+        text-decoration: none; }
+        .sidemenu2 ul li a:hover {
+          color: orange; }

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*index: メディアクエリー*/
+
+/* 切り替えポイントの設定 */
+$vi-max-width-sp	: 640px;
+$vi-max-width-tb	: 1000px;
+
+/* 処理 */
+@mixin media($vi-media: "none") {
+	@if $vi-media == sp {
+		@media only screen and (max-width: $vi-max-width-sp) {
+			@content;
+		}
+	}
+	@else if $vi-media == sp-portrait {
+		@media only screen and (max-width: $vi-max-width-sp) and (orientation:portrait) {
+			@content;
+		}
+	}
+	@else if $vi-media == sp-landscape {
+		@media only screen and (max-width: $vi-max-width-sp) and (orientation:landscape) {
+			@content;
+		}
+	}
+	@else if $vi-media == tb {
+		@media only screen and (max-width: $vi-max-width-tb) {
+			@content;
+		}
+	}
+	@else if $vi-media == tb-portrait {
+		@media only screen and (max-width: $vi-max-width-tb) and (orientation:portrait) {
+			@content;
+		}
+	}
+	@else if $vi-media == tb-landscape {
+		@media only screen and (max-width: $vi-max-width-tb) and (orientation:landscape) {
+			@content;
+		}
+	}
+	@else if $vi-media == none {
+		@content;
+	}
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*index: クリアフィックス*/
+
+/* Class と ステークホルダー の名称設定 */
+$vi-clearfix	: "clearfix";
+
+/* 処理 */
+@if $vi-clearfix {
+	%#{$vi-clearfix} {
+		&:after {
+			content:"";
+			display:block;
+			clear:both;
+		}
+	}
+	.#{$vi-clearfix}{
+		@extend %#{$vi-clearfix};
+	}
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*index: スクリーンリーダー*/
+
+/* スクリーンリーダーテキスト の名称設定 */
+$vi-screen-reader-text	: "screen-reader-text";
+
+/* 処理 */
+@if $vi-screen-reader-text {
+	%#{$vi-screen-reader-text} {
+		clip: rect(1px, 1px, 1px, 1px);
+		position: absolute;
+	}
+	.#{$vi-screen-reader-text} {
+		@extend %#{$vi-screen-reader-text};
+	}
+}
