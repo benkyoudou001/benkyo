@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        /*right banner*/
+        div#rc_rightArea {
+            position: fixed;
+            right: 0px;
+            text-indent: -9993px;
+            display: block;
+        }
+
+        div#rc_rightArea .rc_right,
+        div#rc_rightArea2 .rc_right2 {
+            outline: none;
+            display: block;
+            position: relative;
+            width: 100px;
+            height: 150px;
+            left: 0px;
+            z-index: 9998px;
+        }
+
+        div#rc_rightArea .rc_right:hover,
+        div#rc_rightArea2 .rc_right2:hover {
+            background-position: 0px 0px;
+            width: 120px;
+        }
+
+        #rc_rightArea {
+            z-index: 3;
+        }
+
+        div#floatingCartContainer {
+            margin-top: -100px;
+        }
+
+        div#pagebody {
+            margin-top: -83px;
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            #rc_rightArea,
+            #rc_rightArea2 {
+                display: none !important;
+            }
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="output"></div>
+	<script>
+		$(document).ready(function() {
+            $("#output").load("coopon_setting.html");
+        });
+	</script>
+</body>
