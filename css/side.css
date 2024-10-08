@@ -13,6 +13,12 @@
 
 .sidenews1 {
   margin-bottom: 1.5em; }
+
+.sidenews1 ul {
+  padding-inline-start:0!important; }
+
+.sidenews1 li {
+  list-style-type: none!important; }
   .sidenews1 li a {
     display: block;
     color: #333;
